@@ -1,6 +1,6 @@
 # INSTALACIÓN DE SERVICIOS Y BINARIOS
 
-## Instalación de Docker
+## 1.- Instalación de Docker
 ##### Creación de Script
 ```console
 # sudo su 
@@ -19,7 +19,7 @@ EOF
 ```
 
 
-## Instalación de Git
+## 2.- Instalación de Git
 ```console
 # yum install git -y
 ```
