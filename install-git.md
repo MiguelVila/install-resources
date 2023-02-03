@@ -24,10 +24,10 @@ EOF
 ```
 #### Comandos configuración Git
 ```console
-git config --global user.name "MiguelVila"
-git config --global user.email mvila.huallpa@gmail.com
-git branch -M main
-git remote add origin git@github.com:MiguelVila/demodemo.git
-git push -u origin main
+# git config --global user.name "MiguelVila"
+# git config --global user.email mvila.huallpa@gmail.com
+# git branch -M main
+# git remote add origin git@github.com:MiguelVila/demodemo.git
+# git push -u origin main
 ```
 
