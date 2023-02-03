@@ -2,8 +2,7 @@
 
 ## 1.- Instalación de Docker
 ##### Creación de Script
-```console
-# sudo su 
+```console 
 # cat <<EOF > install_docker.sh
 yum install -y yum-utils
 yum-config-manager \
