@@ -1,6 +1,7 @@
 # INSTALACIÓN DE SERVICIOS Y BINARIOS
 
 ## Instalación de Docker
+##### Creación de Script
 ```console
 # sudo su 
 # cat <<EOF > install_docker.sh
@@ -12,14 +13,13 @@ yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 systemctl enable --now docker
 EOF
 ```
-#### Ejecución de Script
+##### Ejecución de Script
 ```console
 # sh install_docker.sh
 ```
 
 
-### Into container 
+## Instalación de Git
 ```console
-# docker exec -ti python /bin/sh
-# python diagram-file.py
+# yum install git -y
 ```
