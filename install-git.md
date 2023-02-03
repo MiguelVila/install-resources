@@ -2,7 +2,7 @@
 
 ## 1.- Instalación de Docker
 ##### Creación de Script
-###### Oficial Doc **[EFF](https://eff.org)**
+###### Oficial Doc **[Docker Install](https://docs.docker.com/engine/install/centos/)**
 ```console 
 # cat <<EOF > install_docker.sh
 yum install -y yum-utils
