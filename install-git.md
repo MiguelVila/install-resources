@@ -1,34 +1,17 @@
-# INSTALACIÓN DE SERVICIOS Y BINARIOS
+# INSTALACIÓN GIT
 
-## 1.- Instalación de Docker
-##### Creación de Script
-###### Oficial Doc **[Docker Install](https://docs.docker.com/engine/install/centos/)**
-```console 
-# cat <<EOF > install_docker.sh
-yum install -y yum-utils
-yum-config-manager \
---add-repo \
-https://download.docker.com/linux/centos/docker-ce.repo
-yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
-systemctl enable --now docker
-EOF
-```
-##### Ejecución de Script
-```console
-# sh install_docker.sh
-```
+#### Creación de Script
+##### Oficial Doc **[Git Install](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git/)**
 
-
-## 2.- Instalación de Git
+## 2.- Instalación de Git - Centos
 ```console
 # yum install git -y
 ```
-#### Comandos configuración Git
+#### Comandos configuración Git para SSH
 ```console
-# git config --global user.name "MiguelVila"
-# git config --global user.email mvila.huallpa@gmail.com
+# git config --global user.name "Username"
+# git config --global user.email my-email@gmail.com
 # git branch -M main
-# git remote add origin git@github.com:MiguelVila/demodemo.git
+# git remote add origin git@github.com:<myorg>/>my-repo>.git
 # git push -u origin main
 ```
-
