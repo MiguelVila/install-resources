@@ -24,7 +24,9 @@ cat <<EOF >  /etc/sysctl.d/k8s.conf
 net.bridge.bridge-nf-call-ip6tables = 1
 net.bridge.bridge-nf-call-iptables = 1
 EOF
+```
 
+```sh
 sysctl --system
 ```
 ## 3.- Instalación Docker  
@@ -38,7 +40,8 @@ https://download.docker.com/linux/centos/docker-ce.repo
 yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 systemctl enable --now docker
 EOF
-
+```
+```sh
 sh install_docker.sh
 ```
 
@@ -53,7 +56,8 @@ gpgcheck=0
 repo_gpgcheck=0
 gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
 EOF
-
+```
+```sh
 yum install -y kubelet-1.21.0-0.x86_64 kubeadm-1.21.0-0.x86_64 kubectl-1.21.0-0.x86_64  
 systemctl enable kubelet && systemctl start kubelet
 ```
