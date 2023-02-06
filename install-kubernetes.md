@@ -45,7 +45,7 @@ EOF
 sh install_docker.sh
 ```
 
-## 4.- Instalación Kubernetes
+## 4.- Instalación paquetes Kubernetes
 ```sh
 cat <<EOF > /etc/yum.repos.d/kubernetes.repo
 [kubernetes]
