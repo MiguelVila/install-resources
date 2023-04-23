@@ -5,15 +5,15 @@
 
 ## 2.- Instalación de Git - Centos
 ```console
-# yum install git -y
+yum install git -y
 ```
 #### Comandos configuración Git para SSH
 ```console
-# git config --global user.name "Username"
-# git config --global user.email my-email@gmail.com
-# git branch -M main
-# git remote add origin git@github.com:<myorg>/>my-repo>.git
-# git push -u origin main
+git config --global user.name "Username"
+git config --global user.email my-email@gmail.com
+git branch -M main
+git remote add origin git@github.com:<myorg>/>my-repo>.git
+git push -u origin main
 ```
 ## 3. Configuración para especificación de key ssh
 ```sh
