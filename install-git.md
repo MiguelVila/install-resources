@@ -15,3 +15,18 @@
 # git remote add origin git@github.com:<myorg>/>my-repo>.git
 # git push -u origin main
 ```
+## 3. Configuración para especificación de key ssh
+```sh
+ssh-add ~/.ssh/tu-archivo-ssh
+ssh-add -l
+```
+```console
+256 SHA256:77Q0gM9YZMyDesTAdkeuYboCpbyhBnY51laEDQhAbjA cloud_user_p_1074bbd5@linuxacademygclabs.com (ED25519)
+```
+```sh
+git clone ssh://cloud_user_p_1074bbd5@linuxacademygclabs.com@source.developers.google.com:2022/p/playground-s-11-ef434ec4/r/ACG-demo
+```
+```console
+Cloning into 'ACG-demo'...
+warning: You appear to have cloned an empty repository.
+```
