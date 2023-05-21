@@ -24,6 +24,7 @@ git log --since="2023-04-22" --until="2023-04-23" --grep="ini"
 
 ## 3. Configuración para especificación de key ssh
 ```sh
+eval $(ssh-agent)
 ssh-add ~/.ssh/2gcp
 ssh-add -l
 ```
