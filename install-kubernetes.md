@@ -62,3 +62,8 @@ yum install -y kubelet-1.21.0-0.x86_64 kubeadm-1.21.0-0.x86_64 kubectl-1.21.0-0.
 systemctl enable kubelet && systemctl start kubelet
 echo "finish"
 ```
+
+## 5.- Comando utiles
+```
+insecure-skip-tls-verify: true
+```
