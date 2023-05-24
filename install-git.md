@@ -16,6 +16,12 @@ git remote add origin git@github.com:<myorg>/>my-repo>.git
 git remote -v
 git push -u origin main
 ```
+Configuración de merge
+```sh
+git config pull.rebase false  # merge
+git config pull.rebase true   # rebase
+git config pull.ff only       # fast-forward only
+```
 Visualizar los commits realizados
 ```sh
 git log --oneline
